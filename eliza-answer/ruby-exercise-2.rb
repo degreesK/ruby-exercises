@@ -23,6 +23,7 @@ snowy_lines.each do |line|
   end
 end
 
+
 puts
 puts "Here is Snowy double-spaced"
 snowy_lines.each do |line|

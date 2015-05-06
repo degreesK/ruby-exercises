@@ -32,7 +32,7 @@ puts "Here are the lines of Snowy that have an odd number of words"
 snowy_lines.each do |line|
   # puts line if has_odd_words line
 
-  puts line if (to_words line).count % 2 != 0
+  puts line if (((to_words line).count % 2) != 0)
 
   # if (((to_words line).count % 2) != 0)
   #   puts line
